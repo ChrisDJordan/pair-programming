@@ -1,0 +1,369 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+@import "reset";
+
+@import "mixins";
+
+
+p{
+  color:#999;
+  text-align:center;
+  font-family: "lato",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  }
+
+h1{
+  font-family: "lato",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  }
+
+h2{
+   text-align:center;
+   color:#62E0FF;
+   font-size:1.7em;
+   font-family: "lato",sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   margin-top:5px;
+   margin-bottom:5px;
+   }
+
+h3,h4{
+  color:#999;
+  text-align: center;
+  font-family: "lato",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  }
+
+#error-element, #error-signup{
+  color:red;
+}
+
+
+  // header login starts here-----------------------------------
+
+.header-style{
+   background:#1C1C1C;
+   border:1px solid #3D3D3D;
+ 
+        .form-login {
+          float:right;
+              label{
+              	  color: #999;
+                  font-weight: bold;
+                  border-radius: 5px;
+                  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+                  }
+       
+          
+     
+               button{
+                 float:right;
+                 margin-bottom:20px;
+                 margin-right:15px;
+                 }
+
+               input{
+                 width:20%;
+                 margin-top:20px;
+                 margin-right:2.5%;
+                 }
+                }
+               }
+
+
+// body color---------------------------------------------------
+
+.body-color{
+ background-color:#252527;
+}
+
+.logo{
+	margin-top:75px;
+	   h1{
+         font-size:3em;
+         color:#fff;
+         }
+        }
+.btn{
+	margin-top:20px;
+    }
+
+
+
+
+
+
+
+// main sign up form starts here--------------------------------
+.form-signup {
+  margin:35px auto;
+  border: 1px solid #3D3D3D;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background:#454545;
+  background:linear-gradient(#4d4d4d, #2f2f2f);
+  overflow: hidden; 
+  width: 80%;
+
+.sign-up-info {
+  padding: 20px 20px 0 20px;
+
+    label {
+     color: #999;
+     display: block;
+     font-weight: bold;
+     margin-bottom: 20px;
+     }
+
+    input {
+     border-radius: 5px;
+     font: 14px/1.4 "Helvetica Neue", Helvetica,
+     Arial, sans-serif;
+     min-width:100%;
+     color: #636466; 
+     padding: 6px; 
+     margin-top: 6px;
+     background:#f0f0f2;
+     }
+    }
+
+.signup-bottom {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+
+    .btn {
+     background: linear-gradient(#49708f, #293f50);  
+     border: 0;
+     color: #fff;
+     cursor: pointer;
+     font-weight: bold;
+     padding: 8px 16px;
+     width:100%;
+     display:block;
+     margin:0 auto;
+    }
+  }
+}
+
+// bottom section of thirds-------------------------------
+
+.thirds{
+   background-color:#19191B;
+   width:100%;
+   padding-bottom:25px;
+
+
+img{
+  display:block;
+  margin:30px auto;
+  width:80%;
+  }
+ }
+
+
+.delete{
+  display:none;
+  }
+
+// starting of profile page----------------------------------
+
+.border{
+     border-radius:10px;
+     }
+
+
+// header----------------------------------------------------
+header{
+    background:#1C1C1C;
+    border:1px solid #3D3D3D;
+    float:left;
+    width:100%;
+
+      button{
+        float:right;
+        }
+
+
+      h1{
+        float:left;
+        padding-top:20px;
+        padding-bottom:20px;
+        font-size: 1.4em;
+        color:white;
+        margin-left:10px;
+        }
+         
+
+
+      button{
+   	   margin-top:24px;
+       margin-right:14px;
+       }
+      }
+
+ 
+// img and bio---------------------------------------------
+
+
+
+.left-align{
+	text-align:left;
+    }
+
+
+.delete{
+  display:none;
+  }
+
+.profile-img{
+   width:100%;
+   	 background:#19191B;
+   	 margin-top:20px;
+           img{
+             background-size:cover;
+             border-radius:5px;
+             width:37%;
+             display:block;
+             float:left;
+             }
+
+          h2{
+          	position:relative;
+          	left:8px;
+            }
+            }
+
+.move{
+    bottom:20px;
+    display:block;
+    float:left;
+    width:60%;
+    
+    text-align: left;
+    margin-left:10px;
+    }
+
+
+.matches-section{
+	width:100%;
+	background:#19191B;
+	border:1px solid #3D3D3D;
+	margin-top:20px;
+    }
+
+.matches{
+    width:32%;
+      img{
+       display:block;
+       margin:0 auto;
+       border-radius:5px;
+       width:80%;
+       }
+
+       h3{
+       	padding-top:5px;
+
+
+       }
+       
+       p{
+       	padding-bottom:5px;
+       }
+      }
+
+
+.bio{
+	.col3{
+     width:18%;
+     }
+    }
+
+ .col5{
+ 	width:100%;
+ 	position:relative;
+ 	bottom:100px;
+    }
+
+.questions-section{
+     margin-top:20px;
+     background:#19191B;
+     border:1px solid #3D3D3D;
+     border-radius:5px;
+     }
+
+
+
+.messages{
+    margin-top:10px;
+	width:100%;
+	display:none;
+
+} 
+
+.input-styles{
+	color:#999;
+	padding:10px;
+	border:1px solid #3D3D3D;
+	font-family: "lato",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    }
+
+
+
+.input{
+	color:#999;
+	padding:2px;
+    }
+
+
+
+.logo-pic{
+	background-image:asset-imagesurl("heartbeat.png");
+	height:50px;
+	width:50px;
+	color:red;
+    }
+
+  .btn {
+     background: linear-gradient(#4d4d4d, #2f2f2f); 
+     border: 0;
+     color: #fff;
+     cursor: pointer;
+     font-weight: bold;
+     padding: 8px 16px;
+     display:block;
+    }
+
+    // update page----------------------------------
+
+    .upload{
+    	margin-top:10px;
+        }
+
+
+@import "mediaqueries";
+
+
+
+

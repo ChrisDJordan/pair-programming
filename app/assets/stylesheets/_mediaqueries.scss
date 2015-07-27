@@ -1,0 +1,168 @@
+// Place all the styles related to the Answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+// login page queries---------------------------------
+@media screen and (min-width: 650px) {
+
+
+.add{
+  display:block;
+  }
+
+  yep{
+  	display:block;
+  }
+  
+.off{
+  display:none;
+  }
+  
+.thirds{
+  width:49%;
+ }
+  
+.form-signup{
+  width:50%;
+ }
+
+.delete{
+  display:none;
+  }
+
+
+   // profile page-------------------
+
+
+.profile-img{
+   width:100%;
+  
+    img{
+      background-size:cover;
+      width:30%;
+      margin:0 auto;
+      display:block;
+      }
+     }
+
+
+.move{
+    font-size:1.3em;
+    max-height:500px;
+    }
+
+header{
+
+    h1{
+       float:left;
+       padding-top:20px;
+       padding-bottom:20px;
+       font-size: 3em;
+       color:white;
+       }
+         
+
+
+button{
+  margin-top:24px;
+  margin-right:20px;
+  }
+ }
+
+}/*end of 600 querie  */
+
+
+@media screen and (min-width: 900px) {
+
+.body-padding{
+     padding-bottom:40px;
+   }
+
+.add{
+   display:inline-block
+   }
+  
+.thirds{
+   width:32%;
+   }
+  
+.form-signup{
+   width:35%;
+   }
+
+header{
+
+	h1{
+      margin-left:50px;
+	  }
+     }
+
+.profile-img{
+   width:18%;
+
+      img{
+        background-size:cover;
+        width:100%;
+        margin:0 auto;
+        overflow: hidden;
+       }
+      }
+
+
+.matches-section{
+	width:46%;
+	border-radius:5px;
+    }
+
+
+.move{
+	display:none;
+    }
+
+.text-fix{
+     text-align: left;
+     }
+
+.delete-h2{
+	display:none;
+    }
+
+
+.bio{
+   display:block;
+   clear:left;
+
+
+
+.col5{
+   	width:46%;
+   	top:15px;
+    }
+   }
+
+.bringback{
+	display:block;
+    }
+
+
+
+.messages{
+    margin-top:10px;
+	width:100%;
+	display:block;
+    } 
+
+
+
+
+
+
+
+
+} /* end of 750 querie */
+
+  // profile page queries---------------------------------
+
+
